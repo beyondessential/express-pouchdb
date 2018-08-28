@@ -1,10 +1,82 @@
 {
-  "name": "express-pouchdb",
-  "description": "Express submodule with a CouchDB-style REST interface to PouchDB.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pouchdb/pouchdb-server.git"
+  "_args": [
+    [
+      "express-pouchdb@4.1.0",
+      "/Users/Personal/Workspace/tamanu-lan-server"
+    ]
+  ],
+  "_from": "express-pouchdb@4.1.0",
+  "_id": "express-pouchdb@4.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-BsQA5E3xjMk+iCLh4pAOPW+Yh0Ps5RRw0Q3q4I1on98WvxfBjX7bROxcROniod9Gz7CzNaan11zTN+pAyIer6g==",
+  "_location": "/express-pouchdb",
+  "_phantomChildren": {
+    "argsarray": "0.0.1",
+    "clone-buffer": "1.0.0",
+    "immediate": "3.0.6",
+    "inherits": "2.0.3",
+    "is-array-buffer-x": "1.7.0",
+    "pouchdb-collections": "6.4.3",
+    "pouchdb-promise": "6.4.3",
+    "spark-md5": "3.0.0",
+    "uuid": "3.2.1"
   },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "express-pouchdb@4.1.0",
+    "name": "express-pouchdb",
+    "escapedName": "express-pouchdb",
+    "rawSpec": "4.1.0",
+    "saveSpec": null,
+    "fetchSpec": "4.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/express-pouchdb/-/express-pouchdb-4.1.0.tgz",
+  "_spec": "4.1.0",
+  "_where": "/Users/Personal/Workspace/tamanu-lan-server",
+  "bugs": {
+    "url": "https://github.com/pouchdb/pouchdb-server/issues"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.0",
+    "body-parser": "^1.16.1",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "denodeify": "^1.2.1",
+    "express": "^4.14.1",
+    "extend": "^3.0.0",
+    "header-case-normalizer": "^1.0.3",
+    "mkdirp": "^0.5.0",
+    "multiparty": "^4.1.3",
+    "on-finished": "^2.3.0",
+    "pouchdb-all-dbs": "^1.0.2",
+    "pouchdb-auth": "4.1.0",
+    "pouchdb-collections": "^6.4.1",
+    "pouchdb-fauxton": "^0.0.6",
+    "pouchdb-find": "^6.4.1",
+    "pouchdb-list": "4.1.0",
+    "pouchdb-promise": "^6.4.1",
+    "pouchdb-replicator": "4.1.0",
+    "pouchdb-rewrite": "4.1.0",
+    "pouchdb-security": "4.1.0",
+    "pouchdb-show": "4.1.0",
+    "pouchdb-size": "4.1.0",
+    "pouchdb-update": "4.1.0",
+    "pouchdb-validation": "4.1.0",
+    "pouchdb-vhost": "4.1.0",
+    "pouchdb-wrappers": "4.1.0",
+    "raw-body": "^2.2.0",
+    "sanitize-filename": "^1.6.1",
+    "uuid": "^3.0.1"
+  },
+  "description": "Express submodule with a CouchDB-style REST interface to PouchDB.",
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pouchdb/pouchdb-server#readme",
   "keywords": [
     "pouch",
     "pouchdb",
@@ -13,7 +85,11 @@
   ],
   "license": "Apache-2.0",
   "main": "lib/index.js",
-  "files": [
-    "lib"
-  ]
+  "name": "express-pouchdb",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:beyondessential/express-pouchdb.git"
+  },
+  "version": "4.1.0"
 }
